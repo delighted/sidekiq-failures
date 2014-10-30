@@ -4,7 +4,7 @@
   </div>
   <div class="span4">
     <% if @messages.size > 0 %>
-      <%= erb :_paging, :locals => { :url => "#{root_path}failures#@name" } %>
+      <%== erb :_paging, :locals => { :url => "#{root_path}failures#@name" } %>
     <% end %>
   </div>
 </header>
